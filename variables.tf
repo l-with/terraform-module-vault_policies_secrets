@@ -19,10 +19,22 @@ variable "policy_read" {
   default     = true
 }
 
+variable "policy_read_capabilities" {
+  description = "the capabilities for the read policy"
+  type        = list(string)
+  default     = ["read", "list"]
+}
+
 variable "policy_write" {
   description = "if the write policy should be created"
   type        = bool
   default     = false
+}
+
+variable "policy_write_capabilities" {
+  description = "the capabilities for the write policy"
+  type        = list(string)
+  default     = ["create", "update", "patch", "delete"]
 }
 
 variable "kv_version" {

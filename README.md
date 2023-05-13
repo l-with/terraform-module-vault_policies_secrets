@@ -40,7 +40,9 @@ No modules.
 | <a name="input_path"></a> [path](#input\_path) | the vault path inside the vault mount | `string` | n/a | yes |
 | <a name="input_policy_name"></a> [policy\_name](#input\_policy\_name) | the name for the policies | `string` | n/a | yes |
 | <a name="input_policy_read"></a> [policy\_read](#input\_policy\_read) | if the read policy should be created | `bool` | `true` | no |
+| <a name="input_policy_read_capabilities"></a> [policy\_read\_capabilities](#input\_policy\_read\_capabilities) | the capabilities for the read policy | `list(string)` | <pre>[<br>  "read",<br>  "list"<br>]</pre> | no |
 | <a name="input_policy_write"></a> [policy\_write](#input\_policy\_write) | if the write policy should be created | `bool` | `false` | no |
+| <a name="input_policy_write_capabilities"></a> [policy\_write\_capabilities](#input\_policy\_write\_capabilities) | the capabilities for the write policy | `list(string)` | <pre>[<br>  "create",<br>  "update",<br>  "patch",<br>  "delete"<br>]</pre> | no |
 | <a name="input_secret"></a> [secret](#input\_secret) | the secrets to be put in the vault path | `map(string)` | `{}` | no |
 
 ### Outputs

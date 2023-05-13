@@ -3,7 +3,7 @@ data "vault_policy_document" "policy_document_read" {
   rule {
     description  = "allow read on path ${var.path}"
     path         = "${var.mount}/${var.path}"
-    capabilities = ["read", "list"]
+    capabilities = var.policy_read_capabilities
   }
 }
 
@@ -18,7 +18,7 @@ data "vault_policy_document" "policy_document_write" {
   rule {
     description  = "allow read on write ${var.path}"
     path         = "${var.mount}/${var.path}"
-    capabilities = ["create", "update", "patch", "delete"]
+    capabilities = var.policy_write_capabilities
   }
 }
 
