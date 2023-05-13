@@ -1,6 +1,6 @@
 # Terraform Modul vault_kv_policies_secrets
 
-Terraform module for deploying Hasicorp Vault policies and Key/Value secrets 
+Terraform module for deploying Hashicorp Vault policies and optionally Key/Value secrets 
 
 <!-- BEGIN_TF_DOCS -->
 ### Requirements
