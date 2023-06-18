@@ -8,13 +8,13 @@ Terraform module for deploying Hashicorp Vault policies and optionally Key/Value
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3 |
-| <a name="requirement_vault"></a> [vault](#requirement\_vault) | >= 2.23 |
+| <a name="requirement_vault"></a> [vault](#requirement\_vault) | >= 3.8 |
 
 ### Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_vault"></a> [vault](#provider\_vault) | >= 2.23 |
+| <a name="provider_vault"></a> [vault](#provider\_vault) | >= 3.8 |
 
 ### Modules
 
