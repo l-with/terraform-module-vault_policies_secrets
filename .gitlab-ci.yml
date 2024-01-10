@@ -6,6 +6,7 @@ default:
     name: lwith/gitlab-devops:latest
 
 stages:
+  - validate
   - deploy
   - test
 
