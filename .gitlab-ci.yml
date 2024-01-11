@@ -11,4 +11,4 @@ stages:
   - test
 
 variables:
-  TERRAFORM_MODULE_SYSTEM: ""
+  TERRAFORM_MODULE_SYSTEM: vault
