@@ -11,4 +11,4 @@ stages:
   - test
 
 variables:
-  TERRAFORM_MODULE_SYSTEM: default
+  TERRAFORM_MODULE_SYSTEM: ""
