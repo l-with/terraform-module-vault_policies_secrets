@@ -11,4 +11,4 @@ stages:
   - test
 
 variables:
-  TERRAFORM_MODULE_SYSTEM: ${CI_COMMIT_BRANCH}
+  TERRAFORM_MODULE_SYSTEM: default
