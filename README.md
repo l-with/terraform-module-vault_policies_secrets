@@ -49,6 +49,8 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_read_policy_id"></a> [read\_policy\_id](#output\_read\_policy\_id) | the id of the read policy |
 | <a name="output_read_policy_name"></a> [read\_policy\_name](#output\_read\_policy\_name) | the name of the read policy |
+| <a name="output_write_policy_id"></a> [write\_policy\_id](#output\_write\_policy\_id) | the id of the write policy |
 | <a name="output_write_policy_name"></a> [write\_policy\_name](#output\_write\_policy\_name) | the name of the write policy |
 <!-- END_TF_DOCS -->
